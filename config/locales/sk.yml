@@ -1,0 +1,29 @@
+sk:
+  refinery:
+    plugins:
+      dropbox_accounts:
+        title: Dropbox Accounts
+    dropbox_accounts:
+      admin:
+        dropbox_accounts:
+          actions:
+            create_new: Pridať Dropbox Account
+            reorder: Preusporiadať Dropbox Accounts
+            reorder_done: Koniec radenia Dropbox Accounts
+          records:
+            title: Dropbox Accounts
+            sorry_no_results: Ľutujeme, ale neboli nájdené žiadne výsledky.
+            no_items_yet: Nie sú vytvorené žiadne Dropbox Accounts. Kliknite na "Pridať Dropbox Account" pre pridanie prvého dropbox account.
+          dropbox_account:
+            view_live_html: Zobraziť náhľad dropbox account<br/><em>(otvorí sa v novom okne)</em>
+            edit: Upraviť dropbox account
+            delete: Zmazať dropbox account
+      dropbox_accounts:
+        show:
+          other: Daľšie Dropbox Accounts
+  activerecord:
+    attributes:
+      'refinery/dropbox_accounts/dropbox_account':
+        user_id: User
+        token: Token
+        secret: Secret

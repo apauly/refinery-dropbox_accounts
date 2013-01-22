@@ -1,0 +1,31 @@
+zh-CN:
+  refinery:
+    plugins:
+      dropbox_accounts:
+        title: Dropbox Accounts
+    dropbox_accounts:
+      admin:
+        dropbox_accounts:
+          actions:
+            create_new: 建立新的 Dropbox Account
+            reorder: 对 Dropbox Accounts 重新排序
+            reorder_done: 对 Dropbox Accounts 的重新排序结束
+          records:
+            title: Dropbox Accounts
+            sorry_no_results: 对不起，未找到结果。 #Sorry! There are no results found.
+
+            # There are no Dropbox Accounts yet. Click "Add New Dropbox Account" to add your first dropbox account.
+            no_items_yet: 目前没有 Dropbox Accounts . 点击 "Add New Dropbox Account" 创建一个dropbox account.
+          dropbox_account:
+            view_live_html: 查看 dropbox account 的最新内容.<br/><em>(新窗口中打开)</em>
+            edit: 编辑 dropbox account
+            delete: 永久删除 dropbox account
+      dropbox_accounts:
+        show:
+          other: 其他 Dropbox Accounts
+  activerecord:
+    attributes:
+      'refinery/dropbox_accounts/dropbox_account':
+        user_id: User
+        token: Token
+        secret: Secret

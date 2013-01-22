@@ -1,0 +1,30 @@
+es:
+  refinery:
+    plugins:
+      dropbox_accounts:
+        title: Dropbox Accounts
+#        article: masculino/femenino
+    dropbox_accounts:
+      admin:
+        dropbox_accounts:
+          actions:
+            create_new: Crear nuevo dropbox account
+            reorder: Reordenar dropbox accounts
+            reorder_done: Reordenación de dropbox accounts completada
+          records:
+            title: Dropbox Accounts
+            sorry_no_results: Lo siento, no hay resultados
+            no_items_yet: No hay dropbox accounts todavía. Pulsa en "Crear nuevo Dropbox Account" para crear tu primer dropbox account.
+          dropbox_account:
+            view_live_html: Ver este dropbox account como abierto al público <br/><em>(abre en ventana nueva)</em>
+            edit: Editar este dropbox account
+            delete: Borrar este dropbox account para siempre
+      dropbox_accounts:
+        show:
+          other: Otros dropbox accounts
+  activerecord:
+    attributes:
+      'refinery/dropbox_accounts/dropbox_account':
+        user_id: User
+        token: Token
+        secret: Secret

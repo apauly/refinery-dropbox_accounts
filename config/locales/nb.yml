@@ -1,0 +1,29 @@
+nb:
+  refinery:
+    plugins:
+      dropbox_accounts:
+        title: Dropbox Accounts
+    dropbox_accounts:
+      admin:
+        dropbox_accounts:
+          actions:
+            create_new: Lag en ny Dropbox Account
+            reorder: Endre rekkefølgen på Dropbox Accounts
+            reorder_done: Ferdig å endre rekkefølgen Dropbox Accounts
+          records:
+            title: Dropbox Accounts
+            sorry_no_results: Beklager! Vi fant ikke noen resultater.
+            no_items_yet: Det er ingen Dropbox Accounts enda. Klikk på "Lag en ny Dropbox Account" for å legge til din første dropbox account.
+          dropbox_account:
+            view_live_html: Vis hvordan denne dropbox account ser ut offentlig <br/><em>(åpner i et nytt vindu)</em>
+            edit: Rediger denne dropbox account
+            delete: Fjern denne dropbox account permanent
+      dropbox_accounts:
+        show:
+          other: Andre Dropbox Accounts
+  activerecord:
+    attributes:
+      'refinery/dropbox_accounts/dropbox_account':
+        user_id: User
+        token: Token
+        secret: Secret

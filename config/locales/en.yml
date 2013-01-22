@@ -1,0 +1,29 @@
+en:
+  refinery:
+    plugins:
+      dropbox_accounts:
+        title: Dropbox Accounts
+    dropbox_accounts:
+      admin:
+        dropbox_accounts:
+          actions:
+            create_new: Add New Dropbox Account
+            reorder: Reorder Dropbox Accounts
+            reorder_done: Done Reordering Dropbox Accounts
+          records:
+            title: Dropbox Accounts
+            sorry_no_results: Sorry! There are no results found.
+            no_items_yet: There are no Dropbox Accounts yet. Click "Add New Dropbox Account" to add your first dropbox account.
+          dropbox_account:
+            view_live_html: View this dropbox account live <br/><em>(opens in a new window)</em>
+            edit: Edit this dropbox account
+            delete: Remove this dropbox account forever
+      dropbox_accounts:
+        show:
+          other: Other Dropbox Accounts
+  activerecord:
+    attributes:
+      'refinery/dropbox_accounts/dropbox_account':
+        user_id: User
+        token: Token
+        secret: Secret

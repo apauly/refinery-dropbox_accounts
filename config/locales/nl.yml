@@ -1,0 +1,29 @@
+nl:
+  refinery:
+    plugins:
+      dropbox_accounts:
+        title: Dropbox Accounts
+    dropbox_accounts:
+      admin:
+        dropbox_accounts:
+          actions:
+            create_new: Maak een nieuwe Dropbox Account
+            reorder: Wijzig de volgorde van de Dropbox Accounts
+            reorder_done: Klaar met het wijzingen van de volgorde van de Dropbox Accounts
+          records:
+            title: Dropbox Accounts
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Dropbox Accounts. Druk op 'Maak een nieuwe Dropbox Account' om de eerste aan te maken.
+          dropbox_account:
+            view_live_html: Bekijk deze dropbox account op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze dropbox account
+            delete: Verwijder deze dropbox account voor eeuwig
+      dropbox_accounts:
+        show:
+          other: Andere Dropbox Accounts
+  activerecord:
+    attributes:
+      'refinery/dropbox_accounts/dropbox_account':
+        user_id: User
+        token: Token
+        secret: Secret
