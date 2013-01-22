@@ -14,7 +14,7 @@ Dropbox Accounts allows you to upload any files to Refinery CMS via Dropbox.
 
 ## Features
 
-* Refinery Users can link their dropbox account (or even multiple accounts)
+* Refinery Users can link their dropbox account (or even multiple accounts) - works similar to facebook connect 
 * Uses Dropbox Sandbox Api - Refinery CMS only gets access to a single folder of the users dropbox (/Apps/YOUR_DROPBOX_APP_NAME)
 * Once the user adds a new file to that folder, you can sync all new files to Refinery CMS
 * Gives you the ability to create custom file handler chains. See the examples for more details.
@@ -37,11 +37,11 @@ rake db:migrate
 This will generate a new file ```config/initializers/refinery/dropbox_accounts.rb``` inside of your app directory.
 Unless you haven't already, add the credentials for your Dropbox-App there.
 
-## Adding Handlers
+## Adding Handlers / Examples
 This Gem doesn't handle uploaded files in any way. You're the one who has to decide what to do with added files.
 You can add several upload handlers inside of the just created initializer like this:
 
-(Maybe you're interested in the ones creating Images and Resources)
+(Maybe you're interested in the ones creating ```Image```s and ```Resource```s)
 
 
 ```ruby
